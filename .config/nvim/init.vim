@@ -28,7 +28,7 @@ call plug#end()
 " }}}
 
 if !exists('g:vscode')
-    source ~/.config/nvim/neovimrc.vim
+    source ~/.config/nvim/neovim-init.vim
 else
     source ~/.config/nvim/vscoderc.vim
 endif
